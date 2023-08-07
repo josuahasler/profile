@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fontawesome.com/start");
+@import url("https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js");
+@import url("https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js");
+
+@media (max-width: 960px) {
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+}
+
+.card1 {
+  width: 500px;   /* This sets the width */
+  margin: 5% auto; /* This automatically sets left/right margins */
+  background: white;                         /* White background */
+  padding: 4%;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.card2 {
+  width: 500px;   /* This sets the width */
+  margin: 1% auto; /* This automatically sets left/right margins */
+  background: white;                         /* White background */
+  padding: 1%;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.img_circle {
+  border-radius: 50%;
+  background-size: 50%;
+  width: 150px;
+  font-family: 'Open Sans', sans-serif;
+  color: #445069;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.grey_button {
+  width: 100px;
+  height: 50px;
+  color: #445069;
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-size: medium;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: 'Open Sans', sans-serif;
+  color: #445069;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+h1 {
+  color: #252B48;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+.social-media-icon1 {
+  color: #aaaaaa;
+  background-size: 50%;
+  font-size: 50px;
+  font-weight: 300;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+
+.social-media-icon2 {
+  color: #aaaaaa;
+  background-size: 50%;
+  font-size: 50px;
+  font-weight: 300;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
